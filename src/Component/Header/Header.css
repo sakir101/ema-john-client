@@ -1,0 +1,28 @@
+.nav-des{
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 80px;
+}
+
+.nav-menu{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.nav-menu:hover{
+    color: orange;
+}
+
+.log-out{
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: azure;
+    font-size: 15px;
+    cursor: pointer;
+}

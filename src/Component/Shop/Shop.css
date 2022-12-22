@@ -1,0 +1,35 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    margin-left: 30px;
+    grid-gap: 40px;
+}
+
+.cart-container {
+    background-color: #FFE0B3;
+    padding: 20px;
+}
+
+.pagination{
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pagination button{
+    margin-right: 10px;
+}
+
+.pagination .selected{
+    background-color: goldenrod;
+    border: gold;
+    font-weight: bold;
+    width: 30px;
+    padding: 8px;
+}

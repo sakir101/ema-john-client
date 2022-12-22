@@ -1,0 +1,37 @@
+.review-item img{
+    width: 91px;
+}
+
+.review-item{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    width: 570px;
+    height: 107px;
+    margin: 21px auto;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.review-details-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-delete{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EB57574D;
+    cursor: pointer;
+}
+
+.dlt-icon{
+    width: 30px;
+    height: 30px;
+    color: red;
+    
+}
